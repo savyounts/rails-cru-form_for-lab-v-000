@@ -5,5 +5,5 @@ RSpec.describe Genre, type: :model do
     pop = Genre.new("pop")
 
     expect(pop.name).to equal("pop")
-
+  end
 end
