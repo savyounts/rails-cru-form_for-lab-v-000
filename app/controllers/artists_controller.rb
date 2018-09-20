@@ -20,7 +20,7 @@ class ArtistsController < ApplicationController
   def update
     set_artist
     @artist.update(artist_params(:name, :bio))
-    redirect artist_path(@artist)
+    redirect_to artist_path(@artist)
   end
 
   def show
